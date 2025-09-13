@@ -1,5 +1,6 @@
 firebase_service_account.json
-
+.env
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\.env
 # ---- Python ----
 __pycache__/
 *.py[cod]
