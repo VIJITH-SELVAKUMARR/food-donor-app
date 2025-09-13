@@ -1,0 +1,48 @@
+firebase_service_account.json
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ---- Virtualenv ----
+.venv/
+env/
+venv/
+ENV/
+
+# ---- Django ----
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.mo
+local_settings.py
+media/
+staticfiles/
+
+# ---- PostgreSQL ----
+*.sql
+*.dump
+
+# ---- Environment & Secrets ----
+.env
+*.env
+firebase_service_account.json
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Coverage / Testing ----
+.coverage
+htmlcov/
+.tox/
+.junit/
+.pytest_cache/
