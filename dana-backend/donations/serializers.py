@@ -1,6 +1,8 @@
 from rest_framework import serializers
 from .models import Donation, PickupLocation
 from items.serializers import FoodItemSerializer
+from users.serializers import UserSerializer
+from users.models import User
 
 class PickupLocationSerializer(serializers.ModelSerializer):
     class Meta:
@@ -8,12 +10,24 @@ class PickupLocationSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class DonationSerializer(serializers.ModelSerializer):
+    donor = UserSerializer(read_only=True)
+    ngo = UserSerializer(read_only=True)
+    recipient = UserSerializer(read_only=True)
     items = FoodItemSerializer(many=True, required=False)
     location = PickupLocationSerializer()
 
+    recipient_id = serializers.PrimaryKeyRelatedField(
+        queryset=User.objects.filter(user_type="recipient"),
+        source="recipient",
+        write_only=True,
+        required=False
+    )
+
     class Meta:
         model = Donation
-        fields = ['id','donor','title','description','location','pickup_time','status','items','images','created_at']
+        fields = ['id','donor',"ngo", "recipient",
+                  "food_type",'title','description',"expiry_date",'location','pickup_time',
+                  'status','items','images','created_at', "updated_at"]
         read_only_fields = ['donor','status','created_at']
 
     def create(self, validated_data):
