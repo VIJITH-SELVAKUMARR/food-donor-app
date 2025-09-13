@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 import os
 from pathlib import Path
+import firebase_admin
+from firebase_admin import credentials
 import environ
 
 # Initialize environ
@@ -143,7 +145,15 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 
 # Firebase admin init file path
-FIREBASE_CREDENTIALS_JSON = env('FIREBASE_CREDENTIALS_JSON')
+
+env = environ.Env()
+environ.Env.read_env()
+
+FIREBASE_CREDENTIALS_PATH = env("FIREBASE_CREDENTIALS_JSON")
+
+cred = credentials.Certificate(FIREBASE_CREDENTIALS_PATH)
+firebase_admin.initialize_app(cred)
+
 
 # CORS
 CORS_ALLOW_ALL_ORIGINS = True
