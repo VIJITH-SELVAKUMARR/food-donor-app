@@ -17,13 +17,23 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from donations.views import DonationViewSet
+from donations.views import DonationViewSet, health_check
+from django.conf import settings
+from django.conf.urls.static import static
+from users.views import UserViewSet, NGOVerificationViewSet
+
 
 router = routers.DefaultRouter()
 router.register('donations', DonationViewSet, basename='donation')
+router.register('users', UserViewSet, basename='user')
+router.register('ngo-verifications', NGOVerificationViewSet, basename='ngo-verification')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
+    path('api/health/', health_check),
+    
 ]
 
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
