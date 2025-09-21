@@ -5,6 +5,9 @@ from rest_framework import filters
 from .models import User, NGOVerification
 from .serializers import UserSerializer, NGOVerificationSerializer
 from .permissions import IsAdminOrReadOnly
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.response import Response
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -28,4 +31,47 @@ class NGOVerificationViewSet(viewsets.ModelViewSet):
     search_fields = ["user__username", "user__email"]
     ordering_fields = ["submitted_at"]
 
-# Create your views here.
+
+@api_view(["POST"])
+@permission_classes([IsAuthenticated])
+def sync_user(request):
+    firebase_user = request.user  # comes from FirebaseAuthentication
+    
+    user_type = request.data.get("user_type", "donor")
+    phone_number = request.data.get("phone_number", "")
+    address = request.data.get("address", "")
+
+    # username = Firebase UID
+    user, created = User.objects.get_or_create(
+        username=request.user.username,
+        defaults={
+            "email": firebase_user.email,
+            "user_type": user_type,
+            "phone_number": phone_number,
+            "address": address,
+            "is_donor": (user_type == "donor"),
+            "is_receiver": (user_type == "recipient"),
+        }
+    )
+
+    if not created:
+        # update user fields
+        user.user_type = user_type
+        user.phone_number = phone_number
+        user.address = address
+        user.is_donor = (user_type == "donor")
+        user.is_receiver = (user_type == "recipient")
+        user.save()
+
+    serializer = UserSerializer(user)
+    return Response({
+    "status": "ok",
+    "message": f"Synced user {user.email} successfully",
+    "user": {
+        "id": user.id,
+        "email": user.email,
+        "user_type": user.user_type,
+    }
+})
+
+

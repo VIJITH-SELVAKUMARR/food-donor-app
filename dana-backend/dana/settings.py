@@ -16,6 +16,7 @@ import firebase_admin
 from firebase_admin import credentials
 import environ
 
+
 # Initialize environ
 env = environ.Env()
 
@@ -103,6 +104,7 @@ CACHES = {
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'users.auth.FirebaseAuthentication',
+        "rest_framework.authentication.SessionAuthentication",
     ),
     'DEFAULT_PERMISSION_CLASSES': (
         'rest_framework.permissions.IsAuthenticated',
@@ -149,11 +151,16 @@ MEDIA_ROOT = BASE_DIR / "media"
 env = environ.Env()
 environ.Env.read_env()
 
-FIREBASE_CREDENTIALS_PATH = env("FIREBASE_CREDENTIALS_JSON")
+cred_path = env("FIREBASE_CREDENTIALS_JSON")
+if not firebase_admin._apps:  # prevent re-initialization
+    cred = credentials.Certificate(cred_path)
+    firebase_admin.initialize_app(cred)
 
-cred = credentials.Certificate(FIREBASE_CREDENTIALS_PATH)
-firebase_admin.initialize_app(cred)
-
+CORS_ALLOWED_ORIGINS = [
+    "http://10.0.2.2:8000",   # emulator hitting Django
+    "http://127.0.0.1:8000",  # browser local
+    "http://localhost:8000",  # local
+]
 
 # CORS
 CORS_ALLOW_ALL_ORIGINS = True

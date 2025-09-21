@@ -3,3 +3,676 @@ Not Found: /
 Not Found: /
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /
+Forbidden: /api/health/
+Watching for file changes with StatReloader
+Forbidden: /api/health/
+Not Found: /api/health//health/
+Not Found: /api//health/
+Not Found: /api//health/
+Forbidden: /api/health/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /api/health/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\dana\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /api/health/
+Forbidden: /api/health/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /api/health/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\dana\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\dana\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /
+Internal Server Error: /api/health/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 52, in health_check
+    "message": f"Hello {user.email}, API is secure & working"
+                        ^^^^^^^^^^
+AttributeError: 'AnonymousUser' object has no attribute 'email'
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\dana\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Internal Server Error: /api/health/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 59, in health_check
+    decoded_token = auth.verify_id_token(id_token)
+                    ^^^^
+NameError: name 'auth' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 70, in health_check
+    return Response({"error": str(e)}, status=status.HTTP_401_UNAUTHORIZED)
+                                              ^^^^^^
+NameError: name 'status' is not defined
+Internal Server Error: /api/health/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 59, in health_check
+    decoded_token = auth.verify_id_token(id_token)
+                    ^^^^
+NameError: name 'auth' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 70, in health_check
+    return Response({"error": str(e)}, status=status.HTTP_401_UNAUTHORIZED)
+                                              ^^^^^^
+NameError: name 'status' is not defined
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Internal Server Error: /api/health/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 59, in health_check
+    decoded_token = auth.verify_id_token(id_token)
+                    ^^^^
+NameError: name 'auth' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 70, in health_check
+    return Response({"error": str(e)}, status=status.HTTP_401_UNAUTHORIZED)
+                                              ^^^^^^
+NameError: name 'status' is not defined
+Internal Server Error: /api/health/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 59, in health_check
+    decoded_token = auth.verify_id_token(id_token)
+                    ^^^^
+NameError: name 'auth' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 70, in health_check
+    return Response({"error": str(e)}, status=status.HTTP_401_UNAUTHORIZED)
+                                              ^^^^^^
+NameError: name 'status' is not defined
+Internal Server Error: /api/health/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 59, in health_check
+    decoded_token = auth.verify_id_token(id_token)
+                    ^^^^
+NameError: name 'auth' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 70, in health_check
+    return Response({"error": str(e)}, status=status.HTTP_401_UNAUTHORIZED)
+                                              ^^^^^^
+NameError: name 'status' is not defined
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /
+Internal Server Error: /api/auth/sync/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py", line 47, in sync_user
+    username=firebase_user.uid,
+             ^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'uid'. Did you mean: 'id'?
+Internal Server Error: /api/auth/sync/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py", line 47, in sync_user
+    username=firebase_user.uid,
+             ^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'uid'. Did you mean: 'id'?
+Internal Server Error: /api/auth/sync/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py", line 47, in sync_user
+    username=firebase_user.uid,
+             ^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'uid'. Did you mean: 'id'?
+Internal Server Error: /api/auth/sync/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py", line 47, in sync_user
+    username=firebase_user.uid,
+             ^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'uid'. Did you mean: 'id'?
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\auth.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\auth.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\auth.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Internal Server Error: /api/health/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 420, in initial
+    self.perform_authentication(request)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 330, in perform_authentication
+    request.user
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\request.py", line 232, in user
+    self._authenticate()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\request.py", line 385, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\auth.py", line 33, in authenticate
+    "user_type": user_type,
+                 ^^^^^^^^^
+NameError: name 'user_type' is not defined
+Internal Server Error: /api/auth/sync/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 420, in initial
+    self.perform_authentication(request)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 330, in perform_authentication
+    request.user
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\request.py", line 232, in user
+    self._authenticate()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\request.py", line 385, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\auth.py", line 33, in authenticate
+    "user_type": user_type,
+                 ^^^^^^^^^
+NameError: name 'user_type' is not defined
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\auth.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/auth/sync/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py", line 47, in sync_user
+    username=firebase_user.uid,
+             ^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'uid'. Did you mean: 'id'?
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/auth/sync/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py", line 47, in sync_user
+    username=firebase_user.uid,
+             ^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'uid'. Did you mean: 'id'?
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/auth/sync/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py", line 47, in sync_user
+    username=email.split("@")[0] if email else uid,
+                                    ^^^^^
+NameError: name 'email' is not defined. Did you mean: 'eval'? Or did you forget to import 'email'?
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
