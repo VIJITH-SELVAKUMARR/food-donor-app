@@ -1,0 +1,137 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+
+
+# -------------------------
+# OS / Editor
+# -------------------------
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# -------------------------
+# Python / Django
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Django specific
+/staticfiles/
+/media/
+/ngo_docs/
+*.mo
+
+# Local config
+*.local
+*.env
+.env.*
+secrets.json
+
+# Migration cache (but keep actual migrations)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# -------------------------
+# Flutter / Dart
+# -------------------------
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+.dart_tool/
+.coverage/
+.flutter-*
+
+# iOS
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/GeneratedPluginRegistrant.*
+
+# Android
+android/.gradle/
+android/app/build/
+android/local.properties
+android/.idea/
+android/.settings/
+
+# -------------------------
+# Firebase
+# -------------------------
+# Keep the files locally but DO NOT commit them
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# -------------------------
+# Node / React (if you add web frontend)
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
+dist/

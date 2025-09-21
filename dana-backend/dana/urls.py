@@ -21,6 +21,7 @@ from donations.views import DonationViewSet, health_check
 from django.conf import settings
 from django.conf.urls.static import static
 from users.views import UserViewSet, NGOVerificationViewSet
+from users.views import sync_user
 
 
 router = routers.DefaultRouter()
@@ -31,6 +32,7 @@ router.register('ngo-verifications', NGOVerificationViewSet, basename='ngo-verif
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
+    path('api/auth/sync/', sync_user),
     path('api/health/', health_check),
     
 ]

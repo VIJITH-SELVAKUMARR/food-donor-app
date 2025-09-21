@@ -1,4 +1,7 @@
 firebase_service_account.json
+
+dana_app.log
+
 .env
 C:\Users\vijit\Projects\Projects\Dana\dana-backend\.env
 # ---- Python ----
@@ -47,3 +50,94 @@ htmlcov/
 .tox/
 .junit/
 .pytest_cache/
+
+
+# -------------------------
+# OS / Editor
+# -------------------------
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# -------------------------
+# Python / Django
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Django specific
+/staticfiles/
+/media/
+/ngo_docs/
+*.mo
+
+# Local config
+*.local
+*.env
+.env.*
+secrets.json
+
+# Migration cache (but keep actual migrations)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# -------------------------
+# Flutter / Dart
+# -------------------------
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+.dart_tool/
+.coverage/
+.flutter-*
+
+# iOS
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/GeneratedPluginRegistrant.*
+
+# Android
+android/.gradle/
+android/app/build/
+android/local.properties
+android/.idea/
+android/.settings/
+
+# -------------------------
+# Firebase
+# -------------------------
+# Keep the files locally but DO NOT commit them
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# -------------------------
+# Node / React (if you add web frontend)
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
+dist/
