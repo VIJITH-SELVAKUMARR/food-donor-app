@@ -2,6 +2,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import '../api/api_service.dart';
+import 'ngo_upload_screen.dart';
+
 
 class HomeScreen extends StatefulWidget {
   final String? message; // ✅ add constructor parameter
@@ -63,12 +65,27 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(title: const Text("Dana App")),
       body: Center(
-        child: Text(
-          message,
-          style: const TextStyle(fontSize: 20),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(message, style: const TextStyle(fontSize: 20)),
+            const SizedBox(height: 30),
+
+            // ✅ Navigation button
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const NGOUploadScreen(token: '',)),
+                );
+              },
+              child: const Text("Go to NGO Upload"),
+            ),
+          ],
         ),
       ),
     );
   }
 }
+
 

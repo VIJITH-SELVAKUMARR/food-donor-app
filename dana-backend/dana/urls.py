@@ -17,11 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from donations.views import DonationViewSet, health_check
+from donations.views import DonationViewSet, health_check, review_ngo
 from django.conf import settings
 from django.conf.urls.static import static
-from users.views import UserViewSet, NGOVerificationViewSet
-from users.views import sync_user
+from users.views import UserViewSet, NGOVerificationViewSet, sync_user, upload_ngo_doc
 
 
 router = routers.DefaultRouter()
@@ -34,7 +33,8 @@ urlpatterns = [
     path('api/', include(router.urls)),
     path('api/auth/sync/', sync_user),
     path('api/health/', health_check),
-    
+    path('api/auth/ngo-upload/', upload_ngo_doc),
+    path("api/admin/ngo-review/<int:pk>/", review_ngo, name="review-ngo"),
 ]
 
 if settings.DEBUG:

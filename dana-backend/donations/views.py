@@ -1,15 +1,14 @@
 from django.shortcuts import render
-from rest_framework import viewsets, permissions, filters, serializers
-from .models import Donation
-from .serializers import DonationSerializer
+from rest_framework import viewsets, permissions, filters, serializers, status
+from .models import Donation, PickupLocation, NGOVerification
+from django.utils.timezone import now
+from .serializers import DonationSerializer, NGOVerificationSerializer
 from .permissions import IsDonorOrReadOnly, IsNGOCanClaim
 from rest_framework.response import Response
 from rest_framework.decorators import api_view, permission_classes
 from django_filters.rest_framework import DjangoFilterBackend
-from rest_framework import filters
-from rest_framework.permissions import AllowAny
+from rest_framework.permissions import AllowAny, IsAdminUser
 from firebase_admin import auth
-from rest_framework import status
 
 
 class DonationViewSet(viewsets.ModelViewSet):
@@ -70,4 +69,25 @@ def health_check(request):
     except Exception as e:
         return Response({"error": str(e)}, status=status.HTTP_401_UNAUTHORIZED)
 
-# Create your views here.
+
+@api_view(["POST"])
+@permission_classes([IsAdminUser])
+def review_ngo(request, pk):
+    """
+    Admin-only: Approve or reject NGO document.
+    Body: { "status": "verified" } or { "status": "rejected" }
+    """
+    try:
+        verification = NGOVerification.objects.get(pk=pk)
+    except NGOVerification.DoesNotExist:
+        return Response({"error": "NGO Verification not found"}, status=status.HTTP_404_NOT_FOUND)
+
+    new_status = request.data.get("status")
+    if new_status not in ["verified", "rejected"]:
+        return Response({"error": "Invalid status"}, status=status.HTTP_400_BAD_REQUEST)
+
+    verification.status = new_status
+    verification.reviewed_at = now()
+    verification.save()
+
+    return Response(NGOVerificationSerializer(verification).data, status=status.HTTP_200_OK)

@@ -1,5 +1,6 @@
 // api_service.dart
 import 'dart:convert';
+import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -65,17 +66,38 @@ class ApiService {
       "phone_number": phone,
       "address": address,
     }),
-  );
+    );
 
-  if (response.statusCode == 200) {
-    return json.decode(response.body);
-  } else {
-    throw Exception("Failed to sync user: ${response.statusCode}");
+    if (response.statusCode == 200) {
+      return json.decode(response.body);
+    } else {
+      throw Exception("Failed to sync user: ${response.statusCode}");
+    }
+  }
+
+  static Future<Map<String, dynamic>> uploadNGODoc(
+      String token, File file) async {
+    var request = http.MultipartRequest(
+      "POST",
+      Uri.parse("$baseUrl/auth/ngo-upload/"),
+    );
+    request.headers["Authorization"] = "Bearer $token";
+    request.files.add(await http.MultipartFile.fromPath("document", file.path));
+
+    var streamedResponse = await request.send();
+    var response = await http.Response.fromStream(streamedResponse);
+
+    if (response.statusCode == 201) {
+      return json.decode(response.body);
+    } else {
+      throw Exception("Upload failed: ${response.statusCode}");
+    }
   }
 }
 
 
-  static Future secureHealthCheck(String token) async {}
+  Future secureHealthCheck(String token) async {}
 
-  static Future healthCheck() async {}
-}
+  Future healthCheck() async {}
+  Future uploadNGODoc(String token, File file) async {}
+  Future syncUser(String token, String userType, String phone, String address) async {}
