@@ -39,4 +39,22 @@ class Donation(models.Model):
         return f"{self.food_type} by {self.donor.username} ({self.status})"
     
 
-# Create your models here.
+class NGOVerification(models.Model):
+    STATUS_CHOICES = [
+        ("pending", "Pending"),
+        ("verified", "Verified"),
+        ("rejected", "Rejected"),
+    ]
+
+    ngo = models.OneToOneField(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+        related_name="ngo_verification"
+    )
+    document = models.FileField(upload_to="ngo_docs/")
+    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default="pending")
+    submitted_at = models.DateTimeField(auto_now_add=True)
+    reviewed_at = models.DateTimeField(null=True, blank=True)
+
+    def __str__(self):
+        return f"{self.ngo.email} - {self.status}"

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Donation, PickupLocation
+from .models import Donation, PickupLocation, NGOVerification
 from items.serializers import FoodItemSerializer
 from users.serializers import UserSerializer
 from users.models import User
@@ -39,3 +39,12 @@ class DonationSerializer(serializers.ModelSerializer):
             from items.models import FoodItem
             FoodItem.objects.create(donation=donation, **item)
         return donation
+
+
+
+class NGOVerificationSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = NGOVerification
+        fields = ["id", "ngo", "document", "status", "submitted_at", "reviewed_at"]
+        read_only_fields = ["ngo", "submitted_at", "reviewed_at"]
+

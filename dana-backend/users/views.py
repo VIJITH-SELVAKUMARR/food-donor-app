@@ -75,3 +75,28 @@ def sync_user(request):
 })
 
 
+@api_view(["POST"])
+@permission_classes([IsAuthenticated])
+def upload_ngo_doc(request):
+    if request.user.user_type != "ngo":
+        return Response({"error": "Only NGOs can upload documents"},
+                        status=status.HTTP_403_FORBIDDEN)
+
+    if "document" not in request.FILES:
+        return Response({"error": "Document file required"},
+                        status=status.HTTP_400_BAD_REQUEST)
+
+    verification, created = NGOVerification.objects.get_or_create(
+        user=request.user,
+        defaults={"document": request.FILES["document"]}
+    )
+
+    if not created:
+        verification.document = request.FILES["document"]
+        verification.verified = False  # reset if re-uploaded
+        verification.save()
+
+    serializer = NGOVerificationSerializer(verification)
+    return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+
