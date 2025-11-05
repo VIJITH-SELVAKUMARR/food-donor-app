@@ -37,7 +37,7 @@ class NGOVerificationViewSet(viewsets.ModelViewSet):
 def sync_user(request):
     firebase_user = request.user  # comes from FirebaseAuthentication
     
-    user_type = request.data.get("user_type", "donor")
+    user_type = request.data.get("user_type", "ngo")
     phone_number = request.data.get("phone_number", "")
     address = request.data.get("address", "")
 
@@ -46,57 +46,24 @@ def sync_user(request):
         username=request.user.username,
         defaults={
             "email": firebase_user.email,
-            "user_type": user_type,
-            "phone_number": phone_number,
-            "address": address,
-            "is_donor": (user_type == "donor"),
-            "is_receiver": (user_type == "recipient"),
+            "phone_number": request.data.get("phone_number", ""),
+            "address": request.data.get("address", ""),
         }
     )
 
     if not created:
-        # update user fields
-        user.user_type = user_type
-        user.phone_number = phone_number
-        user.address = address
-        user.is_donor = (user_type == "donor")
-        user.is_receiver = (user_type == "recipient")
+        user.phone_number = request.data.get("phone_number", "")
+        user.address = request.data.get("address", "")
         user.save()
+
 
     serializer = UserSerializer(user)
     return Response({
     "status": "ok",
-    "message": f"Synced user {user.email} successfully",
+    "message": f"Synced user {user.email} successfully",''
     "user": {
         "id": user.id,
         "email": user.email,
         "user_type": user.user_type,
     }
 })
-
-
-@api_view(["POST"])
-@permission_classes([IsAuthenticated])
-def upload_ngo_doc(request):
-    if request.user.user_type != "ngo":
-        return Response({"error": "Only NGOs can upload documents"},
-                        status=status.HTTP_403_FORBIDDEN)
-
-    if "document" not in request.FILES:
-        return Response({"error": "Document file required"},
-                        status=status.HTTP_400_BAD_REQUEST)
-
-    verification, created = NGOVerification.objects.get_or_create(
-        user=request.user,
-        defaults={"document": request.FILES["document"]}
-    )
-
-    if not created:
-        verification.document = request.FILES["document"]
-        verification.verified = False  # reset if re-uploaded
-        verification.save()
-
-    serializer = NGOVerificationSerializer(verification)
-    return Response(serializer.data, status=status.HTTP_201_CREATED)
-
-

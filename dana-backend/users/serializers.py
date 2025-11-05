@@ -4,7 +4,7 @@ from .models import User, NGOVerification
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ["id", "username", "email", "phone_number", "address", "user_type", "firebase_uid","is_donor", "is_receiver",]
+        fields = ["id", "username", "email", "phone_number", "address", "firebase_uid",]
 
 
 class NGOVerificationSerializer(serializers.ModelSerializer):

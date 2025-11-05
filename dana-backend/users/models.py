@@ -3,17 +3,10 @@ from django.db import models
 
 class User(AbstractUser):
 
-    USER_TYPES = [
-        ('donor', 'Donor'),
-        ('ngo', 'NGO'),
-        ('recipient', 'Recipient'),
-    ]
 
     # keep username as Firebase uid — optional extra fields:
-    user_type = models.CharField(max_length=20, choices=USER_TYPES, default="donor")
+    user_type = models.CharField(max_length=20, default="donor")
     phone_number = models.CharField(max_length=20, blank=True, null=True)
-    is_donor = models.BooleanField(default=False)
-    is_receiver = models.BooleanField(default=False)
     address = models.TextField(blank=True, null=True)
     firebase_uid = models.CharField(max_length=128, unique=True, null=True, blank=True)
     profile_picture = models.ImageField(upload_to="profile_pics/", blank=True, null=True)

@@ -27,7 +27,7 @@ class FirebaseAuthentication(authentication.BaseAuthentication):
         # Get or create local user
         user, _ = User.objects.get_or_create(
             email=email,
-            defaults={"username": email.split("@")[0], "user_type": "donor"},
+            defaults={"username": email.split("@")[0], },
         )
 
         return (user, None)

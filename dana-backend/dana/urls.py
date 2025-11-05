@@ -17,10 +17,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from donations.views import DonationViewSet, health_check, review_ngo
+from donations.views import DonationViewSet, health_check, review_ngo, upload_ngo_doc
 from django.conf import settings
 from django.conf.urls.static import static
-from users.views import UserViewSet, NGOVerificationViewSet, sync_user, upload_ngo_doc
+from users.views import UserViewSet, NGOVerificationViewSet, sync_user
 
 
 router = routers.DefaultRouter()

@@ -83,11 +83,11 @@ WSGI_APPLICATION = 'dana.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': env('DATABASE_NAME', default='dana_db'),
-        'USER': env('DATABASE_USER', default='postgres'),
-        'PASSWORD': env('DATABASE_PASSWORD', default='seekwell'),
-        'HOST': env('DATABASE_HOST', default='localhost'),
-        'PORT': env('DATABASE_PORT', default='5432'),
+        'NAME': env('POSTGRES_DB'),
+        'USER': env('POSTGRES_USER'),
+        'PASSWORD': env('POSTGRES_PASSWORD'),
+        'HOST': env('POSTGRES_HOST'),
+        'PORT': env('POSTGRES_PORT'),
     }
 }
 
@@ -145,6 +145,10 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / "media"
 
+DATA_UPLOAD_MAX_MEMORY_SIZE = 10485760  # 10 MB
+DATA_UPLOAD_MAX_NUMBER_FIELDS = 1000
+FILE_UPLOAD_MAX_MEMORY_SIZE = 10485760  # 10 MB
+
 
 # Firebase admin init file path
 
@@ -160,6 +164,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://10.0.2.2:8000",   # emulator hitting Django
     "http://127.0.0.1:8000",  # browser local
     "http://localhost:8000",  # local
+    "http://10.220.109.9:8000",
+    "http://192.168.56.1:8000",  
 ]
 
 # CORS

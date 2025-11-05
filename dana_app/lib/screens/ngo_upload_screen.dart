@@ -24,32 +24,43 @@ class _NGOUploadScreenState extends State<NGOUploadScreen> {
   }
 
   Future<void> _uploadFile() async {
-    if (_file == null) return;
+    if (_file == null) {
+      setState(() => message = "Please pick a file first.");
+      return;
+    }
+
     try {
+      print("🪪 Using token: ${widget.token}");
+
       final result = await ApiService.uploadNGODoc(widget.token, _file!);
-      setState(() => message = "Uploaded! Status: ${result["verified"] ? "Verified" : "Pending"}");
+      
+      setState(() => message = "✅ Uploaded! Status: ${result["status"] ? "status" : "Pending"}");
     } catch (e) {
-      setState(() => message = "Error: $e");
+      setState(() => message = "❌ Error: $e");
     }
   }
 
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("NGO Verification")),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            if (_file != null) Image.file(_file!, height: 150),
-            const SizedBox(height: 20),
-            ElevatedButton(onPressed: _pickFile, child: const Text("Pick Document")),
-            ElevatedButton(onPressed: _uploadFile, child: const Text("Upload")),
-            const SizedBox(height: 20),
-            Text(message, style: const TextStyle(fontSize: 16)),
-          ],
-        ),
-      ),
+      body: SafeArea(
+  child: SingleChildScrollView(
+    padding: const EdgeInsets.all(16),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        if (_file != null)
+          Image.file(_file!, height: 150, width: 150, fit: BoxFit.cover),
+        const SizedBox(height: 20),
+        ElevatedButton(onPressed: _pickFile, child: const Text("Pick Document")),
+        ElevatedButton(onPressed: _uploadFile, child: const Text("Upload")),
+        const SizedBox(height: 20),
+        Text(message, textAlign: TextAlign.center),
+      ],
+    ),
+  ),
+),
+
     );
   }
 }

@@ -724,3 +724,1355 @@ Not Found: /
 Not Found: /
 Not Found: /
 Not Found: /
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /
+Forbidden: /api/auth/ngo-upload/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\auth.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\auth.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/auth/ngo-upload/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 100, in upload_ngo_doc
+    if request.user.user_type != "ngo":
+       ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AnonymousUser' object has no attribute 'user_type'
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /api/auth/ngo-upload/
+Forbidden: /api/auth/ngo-upload/
+Forbidden: /api/auth/ngo-upload/
+Forbidden: /api/auth/ngo-upload/
+Forbidden: /api/auth/ngo-upload/
+Forbidden: /api/auth/ngo-upload/
+Forbidden: /api/auth/ngo-upload/
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Forbidden: /api/auth/ngo-upload/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\auth.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /
+Forbidden: /api/auth/ngo-upload/
+Forbidden: /api/auth/ngo-upload/
+Forbidden: /api/auth/ngo-upload/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /
+Forbidden: /api/auth/ngo-upload/
+Forbidden: /api/auth/ngo-upload/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Forbidden: /api/auth/ngo-upload/
+Forbidden: /api/auth/ngo-upload/
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\auth.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /api/auth/ngo-upload/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Forbidden: /api/auth/ngo-upload/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /api/auth/ngo-upload/
+Forbidden: /api/auth/ngo-upload/
+Not Found: /
+Not Found: /
+Forbidden: /api/auth/ngo-upload/
+Not Found: /
+Not Found: /
+Internal Server Error: /api/auth/ngo-upload/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 104, in upload_ngo_doc
+    verification, created = NGOVerification.objects.get_or_create(
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        user=request.user,
+        ^^^^^^^^^^^^^^^^^^
+        defaults={"document": request.FILES["document"]}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\query.py", line 946, in get_or_create
+    return self.get(**kwargs), False
+           ~~~~~~~~^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\query.py", line 619, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1526, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1333, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1806, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: document, id, ngo, ngo_id, reviewed_at, status, submitted_at
+Internal Server Error: /api/auth/ngo-upload/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 104, in upload_ngo_doc
+    verification, created = NGOVerification.objects.get_or_create(
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        user=request.user,
+        ^^^^^^^^^^^^^^^^^^
+        defaults={"document": request.FILES["document"]}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\query.py", line 946, in get_or_create
+    return self.get(**kwargs), False
+           ~~~~~~~~^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\query.py", line 619, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+                                                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+                ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+                                 ~~~~~~~~~~~~~~~~~^
+        child,
+        ^^^^^^
+    ...<7 lines>...
+        update_join_types=update_join_types,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1526, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+                                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1333, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\db\models\sql\query.py", line 1806, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: document, id, ngo, ngo_id, reviewed_at, status, submitted_at
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\dana\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/auth/ngo-upload/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 115, in upload_ngo_doc
+    return Response(serializer.data, status=status.HTTP_201_CREATED)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 525, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 386, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1081, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1177, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'verified' was declared on serializer NGOVerificationSerializer, but has not been included in the 'fields' option.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\dana\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /api/auth/ngo-upload/
+Forbidden: /api/auth/ngo-upload/
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Forbidden: /api/donations/
+Forbidden: /api/donations/
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 444, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 497, in to_internal_value
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 380, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1081, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1177, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'recipient_id' was declared on serializer DonationSerializer, but has not been included in the 'fields' option.
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/donations/
+Not Found: /
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Bad Request: /api/donations/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\dana\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\dana\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\dana\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /
+Not Found: /
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 444, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 497, in to_internal_value
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 380, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `images` is not valid for model `Donation` in `donations.serializers.DonationSerializer`.
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Bad Request: /api/donations/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Bad Request: /api/donations/
+Bad Request: /api/donations/
+Bad Request: /api/donations/
+Bad Request: /api/donations/
+Bad Request: /api/donations/
+Bad Request: /api/donations/
+Bad Request: /api/donations/
+Bad Request: /api/donations/
+Bad Request: /api/donations/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 41, in create
+    return super().create(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 444, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 497, in to_internal_value
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 380, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1081, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1177, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'recipient' was declared on serializer DonationSerializer, but has not been included in the 'fields' option.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 41, in create
+    return super().create(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 444, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 497, in to_internal_value
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 380, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1081, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1177, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'ngo' was declared on serializer DonationSerializer, but has not been included in the 'fields' option.
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 41, in create
+    return super().create(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 444, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 497, in to_internal_value
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 380, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1081, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1177, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'recipient_id' was declared on serializer DonationSerializer, but has not been included in the 'fields' option.
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 41, in create
+    return super().create(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 444, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 497, in to_internal_value
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 380, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1081, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1177, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'items' was declared on serializer DonationSerializer, but has not been included in the 'fields' option.
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 41, in create
+    return super().create(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 444, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 497, in to_internal_value
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 380, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `image` is not valid for model `Donation` in `donations.serializers.DonationSerializer`.
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/donations/
+Donation created: Bucket Biriyani by valiront00 (ID: 1)
+Donation created: Bucket Biriyani by valiront00 (ID: 2)
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 41, in create
+    return super().create(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 444, in run_validation
+    value = self.to_internal_value(data)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 497, in to_internal_value
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 380, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `title` is not valid for model `Donation` in `donations.serializers.DonationSerializer`.
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\models.py changed, reloading.
+Watching for file changes with StatReloader
+Donation created: buun by valiront00 (ID: 3)
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Not Found: /
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Bad Request: /api/donations/
+Bad Request: /api/donations/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Forbidden: /api/donations/
+Forbidden: /api/donations/
+Bad Request: /api/donations/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Bad Request: /api/donations/
+Bad Request: /api/donations/
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 41, in create
+    return super().create(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 36, in perform_create
+    serializer.save(donor=user, location=location_obj)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py", line 44, in create
+    expiry_date = datetime.strptime(expiry_str, "%m/%d/%Y").date()
+                  ^^^^^^^^
+NameError: name 'datetime' is not defined. Did you forget to import 'datetime'?
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Bad Request: /api/donations/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Donation created: Vegetables by valiront00 (ID: 4)
+Donation created: Vegetables by valiront00 (ID: 5)
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/donations/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Donation created: Vegetables by valiront00 (ID: 6)
+Donation created: Vegetables by valiront00 (ID: 7)
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /api/donations/
+Watching for file changes with StatReloader
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 41, in create
+    return super().create(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 36, in perform_create
+    serializer.save(donor=user, location=location_obj)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py", line 55, in create
+    donation = Donation.objects.create(
+        donor=request.user,
+        location=location,
+        **validated_data
+    )
+TypeError: django.db.models.query.QuerySet.create() got multiple values for keyword argument 'donor'
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Donation created: Vegetables by valiront00 (ID: 8)
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Donation created: Vegetables by valiront00 (ID: 9)
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Donation created: Vegetables by valiront00 (ID: 10)
+Donation created: Vegetables by valiront00 (ID: 11)
+Donation created: Vegetables by valiront00 (ID: 12)
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Donation created: Vegetables by valiront00 (ID: 13)
+Donation created: Vegetables by valiront00 (ID: 14)
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Donation created: Vegetables by valiront00 (ID: 15)
+Donation created: Vegetables by valiront00 (ID: 16)
+Donation created: Vegetables by valiront00 (ID: 17)
+Donation created: Vegetables by valiront00 (ID: 18)
+Donation created: Vegetables by valiront00 (ID: 19)
+Donation created: Vegetables by valiront00 (ID: 20)
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Donation created: Vegetables by usersuper (ID: 21)
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 42, in create
+    return super().create(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 20, in create
+    headers = self.get_success_headers(serializer.data)
+                                       ^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 525, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 386, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `is_donor` is not valid for model `User` in `users.serializers.UserSerializer`.
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Donation created: Vegetables by usersuper (ID: 22)
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py", line 42, in create
+    return super().create(request, *args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 20, in create
+    headers = self.get_success_headers(serializer.data)
+                                       ^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 573, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 525, in to_representation
+    for field in fields:
+                 ^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 386, in _readable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+                      ~~~~~~~~~~~~~~~^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+                                ~~~~~~~~~~~~~~~~^
+        source, info, model, depth
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+    ...<2 lines>...
+    )
+django.core.exceptions.ImproperlyConfigured: Field name `is_receiver` is not valid for model `User` in `users.serializers.UserSerializer`.
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\users\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Donation created: Fruits by usersuper (ID: 23)
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\dana\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Not Found: /
+Donation created: Cooked Meal by usersuper (ID: 24)
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Not Found: /auth/sync/
+Not Found: /auth/sync/
+Not Found: /auth/sync/
+Not Found: /auth/sync/
+Not Found: /favicon.ico
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\dana\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\dana\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 716, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\fields.py", line 1870, in to_representation
+    return method(value)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py", line 37, in get_image
+    if obj.image:
+       ^^^^^^^^^
+AttributeError: 'Donation' object has no attribute 'image'. Did you mean: 'images'?
+Watching for file changes with StatReloader
+Not Found: /
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 716, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\fields.py", line 1870, in to_representation
+    return method(value)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py", line 37, in get_image
+    if obj.image:
+       ^^^^^^^^^
+AttributeError: 'Donation' object has no attribute 'image'. Did you mean: 'images'?
+Internal Server Error: /api/donations/
+Traceback (most recent call last):
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 797, in data
+    ret = super().data
+          ^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 716, in to_representation
+    self.child.to_representation(item) for item in iterable
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+                            ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\.venv\Lib\site-packages\rest_framework\fields.py", line 1870, in to_representation
+    return method(value)
+  File "C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py", line 37, in get_image
+    if obj.image:
+       ^^^^^^^^^
+AttributeError: 'Donation' object has no attribute 'image'. Did you mean: 'images'?
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\dana\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\dana\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Forbidden: /api/donations/
+Forbidden: /api/donations/
+Forbidden: /api/donations/
+Forbidden: /api/donations/
+Forbidden: /api/donations/
+Forbidden: /api/donations/
+Forbidden: /api/donations/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/donations/
+Bad Request: /api/donations/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /api/donations/
+Watching for file changes with StatReloader
+Bad Request: /api/donations/
+C:\Users\vijit\Projects\Projects\Dana\dana-backend\donations\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Bad Request: /api/donations/

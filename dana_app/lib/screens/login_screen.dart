@@ -1,3 +1,4 @@
+import 'package:dana_app/screens/forgot_password_screen.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -126,9 +127,8 @@ class _LoginScreenState extends State<LoginScreen> {
       final token = await user.getIdToken();
       final result = await ApiService.syncUser(
         token!,
-        "donor",
         "9876543210", // You might want to collect this during registration
-        "Chennai",    // You might want to collect this during registration
+        "Chennai"    // You might want to collect this during registration
       );
 
       Navigator.pushReplacement(
@@ -251,9 +251,10 @@ class _LoginScreenState extends State<LoginScreen> {
                   alignment: Alignment.centerRight,
                   child: TextButton(
                     onPressed: () {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        const SnackBar(content: Text("Password reset feature coming soon!")),
-                      );
+                      Navigator.push(
+      context,
+      MaterialPageRoute(builder: (_) => const ForgotPasswordScreen()),
+    );
                     },
                     child: const Text(
                       'Forgot password?', 
