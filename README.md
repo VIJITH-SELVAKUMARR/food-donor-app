@@ -27,5 +27,3 @@ The app connects donors, NGOs, and recipients to reduce food waste and streamlin
 - PostgreSQL
 - Media file support for image uploads
 
-python manage.py migrate
-python manage.py runserver
